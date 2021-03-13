@@ -21,7 +21,8 @@ class MainActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        Bottonごとに処理作成する形態
+//      Bottonごとに処理作成する形態
+
         button1.setOnClickListener {
             val intent = Intent(this,SecondActivity::class.java)
 
@@ -106,10 +107,6 @@ class MainActivity : AppCompatActivity(){
         val alertDialog = alertDialogBuilder.create()
         alertDialog.show()
     }
-
-
-
-
 
 
 
