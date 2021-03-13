@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="計算が出来ます！"
+        android:paddingBottom="10dp"
+        />
+
+
+<!--　入力数値１　可視-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数字1"
+        android:id="@+id/textView1"
+        android:paddingBottom="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:inputType="number|numberDecimal"
+        android:paddingBottom="5dp"
+        />
+
+
+<!--　入力数値２　可視-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="数字2"
+        android:id="@+id/textView2"
+        android:paddingBottom="10dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:inputType="number|numberDecimal"
+        android:paddingBottom="5dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="たし算"
+        android:id="@+id/button1"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ひき算"
+        android:id="@+id/button2"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="かけ算"
+        android:id="@+id/button3"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="わり算"
+        android:id="@+id/button4"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        />
+
+
+</LinearLayout>
